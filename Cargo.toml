@@ -13,4 +13,4 @@ categories = ["gui"]
 
 [dependencies]
 imgui = { version="0.12.0", features=["docking"] }
-raylib = "5.5.1"
+raylib = { git = "https://github.com/raylib-rs/raylib-rs", tag = "v6.0.0" }
